@@ -3,10 +3,27 @@
   font-family: sans-serif;  
 }
 
+h2{
+  color: rgb(19, 231, 7);
+  background-color: brown;
+  width: 500px;
+  text-align: center;
+  height: 80px;
+  padding-top: 50px;
+  font-size: 40px;
+  border: 30px dashed aqua;
+  margin-left: 350px;
+}
+
+h2:hover{
+  color: aqua;
+  background-color: black;
+  transition: 0.5s;
+}
 h1{
     text-align: center;
     font-weight: bold;
-    color: blue;
+    color: rgb(125, 13, 35);
     text-decoration: underline;
 }
 
@@ -15,9 +32,6 @@ p{
     background-color: aqua;
     padding: 30px;
 }
-
-
-
 
 .log-in {
   background-color: rgb(171, 127, 69);
@@ -88,7 +102,7 @@ input {
   #box{
     border: 50px solid green;
     text-align: center;
-    margin: 100px 500px 50px;
+    margin: 100px 50px 50px;
     background-color: red;
     text-decoration: none;
     color: white;
