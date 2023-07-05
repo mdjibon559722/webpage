@@ -1,0 +1,96 @@
+*{
+  padding: 0;
+  font-family: sans-serif;  
+}
+
+h1{
+    text-align: center;
+    font-weight: bold;
+    color: blue;
+    text-decoration: underline;
+}
+
+p{
+    font-size: 20px;
+    background-color: aqua;
+    padding: 30px;
+}
+
+
+
+
+.log-in {
+  background-color: rgb(171, 127, 69);
+  width: 30%;
+  margin-left: 400px;
+  height: 470px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px;
+}
+
+
+.log-in img{
+    /* padding-left: 80px; */
+    border: 2px solid rgb(110, 13, 13);
+    border-radius: 50%;
+   
+    margin-left: 200px;
+}
+.log-in h4 {
+    text-align: center;
+    font-size: 40px;
+    padding-top: -28px;
+    padding-bottom: -39px;
+    margin-top: 3px;
+    margin-bottom: 50px;
+  }
+
+
+input {
+    border: 2px solid;
+    font-size: 20px;
+    margin-left: 85px;
+    border-radius: 10px;
+    width: 314px;
+    height: 44px;
+  }
+#log-in {
+    background-color: aqua;
+    width: 321px;
+    height: 49px;
+    font-size: 25px;
+    align-content: ;
+    align-items: center;
+    margin-left: 85px;
+    border-radius: 10px;
+  }
+  #log-in:hover{
+    background-color: blue;
+    transition: 0.5s all linear;
+  }
+
+  .main{
+
+    height: 500px;
+    width: 100%;
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-image: url(Images/natural.avif);
+  }
+
+  .main h2{
+    text-align: center;
+     padding-top: 200px;
+     font-size: 50px;
+     color: rgb(55, 5, 235);
+  }
+
+  #box{
+    border: 50px solid green;
+    text-align: center;
+    margin: 100px 500px 50px;
+    background-color: red;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+  }
